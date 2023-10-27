@@ -127,7 +127,8 @@ nav {
 }
 
 .Grid-Logo-text  button:hover{
-    background-color: #2d2d2d;
+    background-color: #7f3f98;
+    opacity: 50%;
     box-shadow: 5px 5px 20px -11px rgba(18, 18, 18, 0.75);
 }
 
@@ -302,8 +303,8 @@ p {
 }
 
 .About-text button:hover{
-    background-color: #2d2d2d;
-    transform: translate(100%, -50%);
+    background-color: #7f3f98;
+    opacity: 50%;
     box-shadow: 5px 5px 20px -11px rgba(18, 18, 18, 0.75);
 }
 
