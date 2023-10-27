@@ -23,6 +23,7 @@ body a:active {
 h1 {
     font-family: 'Cabinet Grotesk', sans-serif;
     font-weight: 900;
+    color: #080808;
 }
 
 .page-container {
@@ -63,6 +64,7 @@ nav {
     text-decoration: none;
     font-size: 42px;
     font-family: 'Cabinet Grotesk', sans-serif;
+    color: #080808;
 }
 
 .nav-links.smaller a {
@@ -109,6 +111,7 @@ nav {
     text-align: center;
     font-family: 'Cabinet Grotesk', sans-serif;
     font-weight: 700;
+    color: #080808;
 }
 
 .three {
