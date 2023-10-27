@@ -176,6 +176,7 @@ nav {
     white-space: nowrap;
     font-family: 'Cabinet Grotesk', sans-serif;
     font-weight: 800;
+    color: #080808;
 }
 
 @keyframes scroll {
