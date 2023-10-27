@@ -128,13 +128,12 @@ nav {
 
 .Grid-Logo-text  button:hover{
     background-color: #2d2d2d;
-    transform: translate(100%, -50%);
     box-shadow: 5px 5px 20px -11px rgba(18, 18, 18, 0.75);
 }
 
 .Grid-Logo-text  button:active{
     background-color: #000000;
-    transform: translate(100%, -50%) scale(1.035);
+    transform: scale(1.035);
 }
 
 .Marquee-grid {
