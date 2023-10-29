@@ -140,5 +140,12 @@
         left: 2px;
         top: 1085px;
     }
+    .g1 img {
+        padding-top: 24px;
+        padding-left: 19px;
+        width: 140px;
+        height: 140px;
+        align-items: center;
+    }
     
 }

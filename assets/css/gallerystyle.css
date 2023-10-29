@@ -173,6 +173,7 @@ footer {
     border: 0.5px solid #9f9f9f;
     width: 1200px;
     height: 50px;
+    margin-top: auto;
 }
 
 .footer-content p {
