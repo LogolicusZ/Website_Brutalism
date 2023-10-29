@@ -7,7 +7,8 @@
         max-width: 980px;
         margin: 0 auto;
         overflow: hidden;
-        min-height: 1701.5px;;
+        min-height: 1701.5px;
+        
 
     }
 
@@ -43,25 +44,25 @@
         display: flex;
         row-gap: 0%;
         height: 500px;
-    
+
     }
 
     .Grid-Logo-text h1 {
-        position:absolute;
+        position: absolute;
         align-items: center;
         top: 250px;
         font-size: 75px;
     }
 
     .Grid-Logo-text h2 {
-        position:absolute;
+        position: absolute;
         align-items: center;
         top: 50px;
         font-size: 35px;
     }
 
-    .Grid-Logo-text  button {
-        position:absolute;
+    .Grid-Logo-text button {
+        position: absolute;
         align-items: center;
         top: 410px;
         right: 100px;
@@ -95,19 +96,20 @@
         height: 462px;
         background-color: transparent;
     }
-    
+
     .Grid-Photo img {
         width: 410px;
         height: 410px;
         padding: 10px;
         padding-top: 20px;
     }
-    
+
     .About-text {
         border: 0.5px solid #9f9f9f;
         width: 637px;
         height: 462px;
     }
+
     p {
         font-family: 'Cabinet Grotesk', sans-serif;
         font-weight: 300;
@@ -116,10 +118,10 @@
         align-items: center;
         padding: 20px;
         color: #080808;
-    
+
     }
 
-    .About-text  button {
+    .About-text button {
         height: 55px;
         font-size: 30px;
     }
@@ -140,6 +142,7 @@
         left: 2px;
         top: 1085px;
     }
+
     .g1 img {
         padding-top: 24px;
         padding-left: 19px;
@@ -147,5 +150,5 @@
         height: 140px;
         align-items: center;
     }
-    
+
 }
