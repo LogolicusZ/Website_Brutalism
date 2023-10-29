@@ -72,10 +72,11 @@ nav {
     font-size: 32px;
 }
 
-.Grid1,
-.Grid2,
-.Grid3,
-.Grid4 {
+.Grid-1,
+.Grid-2,
+.Grid-3,
+.Grid-4
+.Grid-5 {
     display: flex;
     justify-content: space-between;
     width: 100%;
