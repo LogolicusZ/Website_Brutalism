@@ -85,7 +85,7 @@ nav {
 
 
 
-.Grid2 {
+.Grid-2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(100px, auto);
@@ -123,11 +123,11 @@ nav {
     height: 1101px;
 }
 
-.Grid2 {
+.Grid-2 {
     z-index: -1;
 }
 
-.Grid3 {
+.Grid-3 {
     z-index: 1;
 }
 
@@ -147,7 +147,7 @@ nav {
     gap: 15px;
 }
 
-.Grid4 {
+.Grid-4 {
     position: absolute;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
