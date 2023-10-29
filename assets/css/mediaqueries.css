@@ -1,5 +1,6 @@
 /* For screens smaller than 600px */
 @media only screen and (max-width: 1179px) {
+    
     .page-container {
         display: flex;
         flex-direction: column;
