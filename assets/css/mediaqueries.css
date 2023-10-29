@@ -1,0 +1,144 @@
+/* For screens smaller than 600px */
+@media only screen and (max-width: 1179px) {
+    .page-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 980px;
+        margin: 0 auto;
+        overflow: hidden;
+        min-height: 1701.5px;;
+
+    }
+
+    .nav-bar-background {
+        border: 0.5px solid #9f9f9f;
+        width: 980px;
+    }
+
+    .nav-links a {
+        font-size: 60px;
+    }
+
+    .nav-links.smaller a {
+        font-size: 45px;
+    }
+
+    .Grid-Logo img {
+        width: 90%;
+    }
+
+    .Grid-Logo {
+        border: 0.5px solid #9f9f9f;
+        width: 60%;
+        height: 500px;
+        overflow: hidden;
+    }
+
+    .Grid-Logo-text {
+        border: 0.5px solid #9f9f9f;
+        width: 40%;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        row-gap: 0%;
+        height: 500px;
+    
+    }
+
+    .Grid-Logo-text h1 {
+        position:absolute;
+        align-items: center;
+        top: 250px;
+        font-size: 75px;
+    }
+
+    .Grid-Logo-text h2 {
+        position:absolute;
+        align-items: center;
+        top: 50px;
+        font-size: 35px;
+    }
+
+    .Grid-Logo-text  button {
+        position:absolute;
+        align-items: center;
+        top: 410px;
+        right: 100px;
+        height: 55px;
+        font-size: 30px;
+    }
+
+    .gradient-grid {
+        border: 0.5px solid #9f9f9f;
+        width: 980px;
+        height: 100px;
+        top: 825px;
+    }
+
+    .gradient-grid img {
+        width: 980px;
+        height: 100px;
+        position: absolute;
+    }
+
+    .Marquee-grid {
+        border: 0.5px solid #9f9f9f;
+        width: 980px;
+        height: 80px;
+        top: 754px;
+    }
+
+    .Grid-Photo {
+        border: 0.5px solid #9f9f9f;
+        width: 462px;
+        height: 462px;
+        background-color: transparent;
+    }
+    
+    .Grid-Photo img {
+        width: 410px;
+        height: 410px;
+        padding: 10px;
+        padding-top: 20px;
+    }
+    
+    .About-text {
+        border: 0.5px solid #9f9f9f;
+        width: 637px;
+        height: 462px;
+    }
+    p {
+        font-family: 'Cabinet Grotesk', sans-serif;
+        font-weight: 300;
+        font-size: 35px;
+        text-align: left;
+        align-items: center;
+        padding: 20px;
+        color: #080808;
+    
+    }
+
+    .About-text  button {
+        height: 55px;
+        font-size: 30px;
+    }
+
+    .Grid-4 {
+        left: 2px;
+        top: 655px;
+    }
+
+    .Grid-3 {
+        left: 2px;
+        top: 225px;
+
+    }
+
+    .Grid-5 {
+
+        left: 2px;
+        top: 1085px;
+    }
+    
+}
