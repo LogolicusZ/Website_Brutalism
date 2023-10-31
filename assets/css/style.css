@@ -36,8 +36,8 @@ h1 {
 }
 
 .nav-bar-background {
-    border: 0.5px solid #9f9f9f;
-    width: 1200px;
+    border: 0.5px solid #080808;
+    width: 99.8%;
 }
 
 nav {
@@ -79,7 +79,7 @@ nav {
 }
 
 .Grid-Logo {
-    border: 0.5px solid #9f9f9f;
+    border: 0.5px solid #080808;
     width: 60%;
     height: 660px;
 }
@@ -91,7 +91,7 @@ nav {
 }
 
 .Grid-Logo-text {
-    border: 0.5px solid #9f9f9f;
+    border: 0.5px solid #080808;
     width: 40%;
     align-items: center;
     flex-direction: column;
@@ -138,13 +138,13 @@ nav {
 }
 
 .Grid-Logo-text  button:active{
-    background-color: #000000;
+    background-color: #080808;
     transform: scale(1.035);
 }
 
 .Marquee-grid {
-    border: 0.5px solid #9f9f9f;
-    width: 100%;
+    border: 0.5px solid #080808;
+    width: 99.8%;
     height: 80px;
     top: 754px;
 }
@@ -198,8 +198,8 @@ nav {
 }
 
 .gradient-grid {
-    border: 0.5px solid #9f9f9f;
-    width: 100%;
+    border: 0.5px solid #080808;
+    width: 99.8%;
     height: 100px;
     top: 825px;
 }
@@ -208,6 +208,7 @@ nav {
     width: 1200px;
     height: 100px;
     position: absolute;
+    z-index: -1;
 }
 
 .star {
@@ -220,7 +221,7 @@ nav {
 }
 
 .Grid-Logo-small {
-    border: 0.5px solid #9f9f9f;
+    border: 0.5px solid #080808;
     width: 20%;
     top: 936px;
 }
@@ -231,7 +232,7 @@ nav {
 }
 
 .About-title {
-    border: 0.5px solid #9f9f9f;
+    border: 0.5px solid #080808;
     width: 65%;
     top: 936px;
     left: 397px
@@ -248,7 +249,7 @@ nav {
 }
 
 .Grid-circle {
-    border: 0.5px solid #9f9f9f;
+    border: 0.5px solid #080808;
     width: 20%;
 }
 
@@ -265,7 +266,7 @@ nav {
 }
 
 .Grid-Photo {
-    border: 0.5px solid #9f9f9f;
+    border: 0.5px solid #080808;
     width: 662px;
     background-color: transparent;
 }
@@ -278,7 +279,7 @@ nav {
 }
 
 .About-text {
-    border: 0.5px solid #9f9f9f;
+    border: 0.5px solid #080808;
     width: 637px;
     height: 662px;
 }
@@ -326,7 +327,7 @@ p {
 }
 
 .g1 {
-    border: 0.5px solid #9f9f9f;
+    border: 0.5px solid #080808;
     width: 219px;
     height: 190px;
     background-color: transparent;
@@ -342,7 +343,7 @@ p {
 
 
 .g2 {
-    border: 0.5px solid #9f9f9f;
+    border: 0.5px solid #080808;
     width:  541px;
     height: 190px;
     background-color: transparent;
@@ -365,7 +366,7 @@ p {
 }
 */
 .g4 {
-    border: 0.5px solid #9f9f9f;
+    border: 0.5px solid #080808;
     width: 437px;
     height: 190px;
     background-color: transparent;
@@ -380,8 +381,8 @@ p {
 
 
 footer {
-    border: 0.5px solid #9f9f9f;
-    width: 1200px;
+    border: 0.5px solid #080808;
+    width: 99.8%;
     height: 50px;
     margin-top: auto;
 

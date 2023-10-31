@@ -38,8 +38,9 @@ h1 {
 }
 
 .nav-bar-background {
-    border: 0.5px solid #9f9f9f;
-    width: 1200px;
+    border: 0.5px solid #080808;
+    width: 99.8%;
+
 }
 
 nav {
@@ -93,14 +94,14 @@ nav {
 }
 
 .one {
-    border: 0.5px solid #9f9f9f;
+    border: 0.5px solid #080808;
     grid-column: 1 / 2;
     grid-row: 1;
     height: 1520px;
 }
 
 .two {
-    border: 0.5px solid #9f9f9f;
+    border: 0.5px solid #080808;
     grid-column: 2 / 2;
     grid-row: 1;
     height: 200px;
@@ -116,7 +117,7 @@ nav {
 }
 
 .three {
-    border: 0.5px solid #9f9f9f;
+    border: 0.5px solid #080808;
     grid-column: 3 / 3;
     grid-row: 1;
     height: 1520px;
@@ -170,8 +171,8 @@ nav {
 
 
 footer {
-    border: 0.5px solid #9f9f9f;
-    width: 1200px;
+    border: 0.5px solid #080808;
+    width: 99.8%;
     height: 50px;
     margin-top: auto;
 
