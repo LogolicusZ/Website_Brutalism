@@ -33,6 +33,7 @@ h1 {
     max-width: 1200px;
     margin: 0 auto;
     min-height: 1684.5px;
+
 }
 
 .nav-bar-background {
@@ -76,12 +77,16 @@ nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin-top: -1px;
+ 
+
 }
 
 .Grid-Logo {
     border: 0.5px solid #080808;
     width: 60%;
     height: 660px;
+    margin-right: -1px;
 }
 
 .Grid-Logo img {
@@ -146,7 +151,7 @@ nav {
     border: 0.5px solid #080808;
     width: 99.8%;
     height: 80px;
-    top: 754px;
+    margin: -1px;
 }
 
 .marquee {
@@ -224,6 +229,7 @@ nav {
     border: 0.5px solid #080808;
     width: 20%;
     top: 936px;
+    margin-right: -1px;
 }
 
 .Grid-Logo-small img {
@@ -235,7 +241,8 @@ nav {
     border: 0.5px solid #080808;
     width: 65%;
     top: 936px;
-    left: 397px
+    left: 397px;
+    margin-right: -1px;
 }
 
 .About-title h1 {
@@ -269,6 +276,7 @@ nav {
     border: 0.5px solid #080808;
     width: 662px;
     background-color: transparent;
+    margin-right: -1px;
 }
 
 .Grid-Photo img {
@@ -332,6 +340,7 @@ p {
     height: 190px;
     background-color: transparent;
     Top: 1832px;
+    margin-right: -1px;
 }
 
 .g1 img {
@@ -347,6 +356,7 @@ p {
     width:  541px;
     height: 190px;
     background-color: transparent;
+
 
 }
 
@@ -370,6 +380,7 @@ p {
     width: 437px;
     height: 190px;
     background-color: transparent;
+
 }
 
 .g4 img  {
@@ -384,7 +395,7 @@ footer {
     border: 0.5px solid #080808;
     width: 99.8%;
     height: 50px;
-    margin-top: auto;
+    margin-top: -1px;
 
 }
 
