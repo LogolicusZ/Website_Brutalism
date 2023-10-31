@@ -207,6 +207,7 @@ nav {
     width: 99.8%;
     height: 100px;
     top: 825px;
+    overflow: hidden;
 }
 
 .gradient-grid img {
