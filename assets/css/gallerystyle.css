@@ -40,41 +40,151 @@ h1 {
 
 .nav-bar-background {
     border: 0.5px solid #080808;
-    width: 99.8%;
-
+    width: 99.9%;
+    height: 80px;
 }
 
-nav {
+    .container {
+    max-width: 100%;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .navbar {
+    width: 100%;
+
+  }
+  
+  .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: transparent;
-    padding: 20px;
-}
-
-.logo {
-    font-size: 46px;
-    font-family: 'Cabinet Grotesk', sans-serif;
-    font-weight: 700;
-}
-
-.nav-links {
-    list-style-type: none;
+    height: 62px;
+  }
+  
+  .navbar .menu-items {
     display: flex;
-    gap: 20px;
-}
-
-.nav-links a {
-    color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .navbar .nav-container li {
+    list-style: none;
+  }
+  
+  .navbar .nav-container a {
     text-decoration: none;
-    font-size: 42px;
-    font-family: 'Cabinet Grotesk', sans-serif;
     color: #080808;
-}
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 0.7rem;
+  }
+  
+  .navbar .nav-container a:hover{
+      font-weight: bolder;
+  }
+  
+  .nav-container {
+    display: block;
+    position: relative;
+    height: 60px;
+  }
+  
+  .nav-container .checkbox {
+    position: relative;
+    display: block;
+    height: 32px;
+    width: 32px;
+    top: 20px;
+    left: 20px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .nav-container .hamburger-lines {
+    display: block;
+    height: 26px;
+    width: 32px;
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .nav-container .hamburger-lines .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: #0e2431;
+  }
+  
+  .nav-container .hamburger-lines .line1 {
+    transform-origin: 0% 0%;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .nav-container .hamburger-lines .line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .navbar .menu-items {
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    height: 1684.5px;
+    width: 100%;
+    transform: translate(-150%);
+    display: flex;
+    flex-direction: column;
 
-.nav-links.smaller a {
-    font-size: 32px;
-}
+    transition: transform 0.5s ease-in-out;
+    text-align: center;
+    background-color: #f8f8f8;
+  }
+  
+  .navbar .menu-items li {
+    margin-bottom: 1.2rem;
+    font-size: 1.5rem;
+  }
+
+  .navbar .menu-items a {
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    color: #080808;
+  }
+
+  .logo h1 {
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    margin: 0px;
+  }
+  
+  .nav-container input[type="checkbox"]:checked ~ .menu-items {
+    transform: translateX(0);
+  }
+  
+  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+    transform: rotate(45deg);
+  }
+  
+  
+  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+    transform: rotate(-45deg);
+  }
+  
+  .nav-container input[type="checkbox"]:checked ~ .logo{
+    display: none;
+  }
 
 .Grid-1,
 .Grid-2,
