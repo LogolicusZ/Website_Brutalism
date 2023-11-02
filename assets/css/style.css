@@ -45,6 +45,7 @@ body a:active {
   
   .navbar {
     width: 100%;
+    z-index: 100;
 
   }
   
@@ -131,7 +132,6 @@ body a:active {
     transform: translate(-150%);
     display: flex;
     flex-direction: column;
-
     transition: transform 0.5s ease-in-out;
     text-align: center;
     background-color: #f8f8f8;
@@ -153,6 +153,7 @@ body a:active {
     top: 5px;
     right: 15px;
     color: #080808;
+
   }
 
   .logo h1 {
@@ -160,6 +161,13 @@ body a:active {
     font-weight: 500;
     font-size: 50px;
     margin: 0px;
+   
+       content-visibility: visible;
+  }
+
+  .logo img {
+  content-visibility: hidden;
+
   }
   
   .nav-container input[type="checkbox"]:checked ~ .menu-items {
@@ -410,30 +418,36 @@ p {
 
 }
 
-.About-text button {
-    font-family: 'Cabinet Grotesk', sans-serif;
-    font-weight: 400;
-    position: relative;
-    transform: translate(100%, -50%);
-    color: #f8f8f8;
-    background-color: #080808;
-    width: 250px;
-    height: 45px;
-    border-radius: 30px;
-    font-size: 20px;
-    border: 0px;
+
+
+.Grid3-5 button {
+    background-color: transparent;
     cursor: pointer;
     transition: transform 0.02s ease-in-out;
+    border-color: transparent;
+}
+.Grid3-5 {
+    display: flex;
+    border: 0.5px solid #080808;
+    width:99.9%;
+    margin-top: -1px;
+    height: 150px;
+    justify-content: center;
+
 }
 
-.About-text button:hover{
-    background-color: #7f3f98;
-    opacity: 50%;
-    box-shadow: 5px 5px 20px -11px rgba(18, 18, 18, 0.75);
+.Grid3-5 img {
+ width:100px;
+ height: auto;
 }
 
-.About-text button:active{
-    background-color: #000000;
+.Grid3-5 p {
+    font-size: 80px;
+    align-items: center;
+    margin: 0%;
+}
+
+.Grid3-5 button:active{
     transform: translate(100%, -50%) scale(1.035);
 }
 
