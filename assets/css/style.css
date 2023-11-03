@@ -127,7 +127,7 @@ body a:active {
   
   .navbar .menu-items {
 
-    height: 1684.5px;
+    height: 322vh;
     width: 100%;
     transform: translate(-150%);
     display: flex;
@@ -135,6 +135,7 @@ body a:active {
     transition: transform 0.5s ease-in-out;
     text-align: center;
     background-color: #f8f8f8;
+    z-index: 300;
   }
   
   .navbar .menu-items li {
@@ -377,6 +378,7 @@ body a:active {
 .Grid-circle {
     border: 0.5px solid #080808;
     width: 20%;
+
 }
 
 .Grid-circle img{
@@ -517,7 +519,7 @@ p {
 
 footer {
     border: 0.5px solid #080808;
-    width: 99.8%;
+    width: 99.9%;
     height: 50px;
     margin-top: -1px;
 
