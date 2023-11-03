@@ -450,9 +450,6 @@ p {
     margin: 0%;
 }
 
-.Grid3-5 button:active{
-    transform: translate(100%, -50%) scale(1.035);
-}
 
 .Grid4 {
     display: flex;

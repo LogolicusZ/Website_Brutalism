@@ -168,6 +168,15 @@ h1 {
     font-size: 50px;
     margin: 0px;
   }
+
+  .logo img {
+    content-visibility: hidden;
+    opacity: 0;
+    z-index: -300;
+    width: 0;
+    height:0;
+  
+    }
   
   .nav-container input[type="checkbox"]:checked ~ .menu-items {
     transform: translateX(0);
