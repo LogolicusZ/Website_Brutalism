@@ -161,12 +161,15 @@ body a:active {
     font-weight: 500;
     font-size: 50px;
     margin: 0px;
-   
-       content-visibility: visible;
+    content-visibility: visible;
   }
 
   .logo img {
   content-visibility: hidden;
+  opacity: 0;
+  z-index: -300;
+  width: 0;
+  height:0;
 
   }
   
