@@ -37,9 +37,9 @@
       .nav-container .checkbox {
         position: relative;
         display: block;
-        height: 60px;
-        width: 60px;
-        top: 1px;
+        height: 110px;
+        width: 40px;
+        top: 10px;
         left: 10px;
         z-index: 5;
         opacity: 0;
@@ -48,8 +48,8 @@
       
       .nav-container .hamburger-lines {
         display: block;
-        height: 35px;
-        width: 41px;
+        height: 78px;
+        width: 128px;
         position: absolute;
         top: 55px;
         left: 20px;
@@ -62,19 +62,18 @@
       .navbar .menu-items {
         height: 3000px;
         width: 100%;
-        transform: translate(-150%);
+        transform: translateY(-150%);
         display: flex;
         flex-direction: column;
         transition: transform 0.5s ease-in-out;
         text-align: center;
         background-color: #f8f8f8;
         z-index: 100;
-        overflow-y:auto ;
       }
 
       .nav-container .hamburger-lines .line {
         display: block;
-        height: 6px;
+        height: 10px;
         width: 100%;
         border-radius: 10px;
         background: #0e2431;
@@ -134,8 +133,6 @@
 
     }
 
-
-     
       .navbar .menu-items li {
         margin-bottom: 1.2rem;
         font-size: 1.5rem;
@@ -151,14 +148,14 @@
     .Grid-Logo-text h1 {
         position: relative;
         align-items: center;
-        font-size: 12rem;
+        font-size: 11rem;
         margin-top:2%;
         margin-bottom: 4%;
     }
 
     .Grid-Logo-text h2 {
         align-items: center;
-        font-size: 5rem;
+        font-size: 4rem;
         margin-top: 5%;
         margin-bottom: 2%;
     }
@@ -169,6 +166,7 @@
         height: 120px;
         font-size: 50px;
         width: 400px;
+        border-radius: 10px;
 
     }
 
@@ -287,6 +285,11 @@
         display: none;
     }
 
+    .two h1 {
+        font-size: 105px;
+        margin: 0%;
+        margin-top: 5%;
+    }
 
     .Grid-4 {
         left: 2px;
