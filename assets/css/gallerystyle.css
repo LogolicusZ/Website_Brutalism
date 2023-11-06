@@ -1,326 +1,328 @@
 @import url('https://fonts.cdnfonts.com/css/cabinet-grotesk');
 
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 html {
-    scroll-behavior: smooth;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 body {
-    margin-top: 0;
-    background-color: #f8f8f8;
-    color: rgba(0, 0, 0, 0.8);
+  margin-top: 0;
+  background-color: #f8f8f8;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 body a:active {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 h1 {
-    font-family: 'Cabinet Grotesk', sans-serif;
-    font-weight: 900;
-    color: #080808;
+  font-family: 'Cabinet Grotesk', sans-serif;
+  font-weight: 900;
+  color: #080808;
 }
 
 .page-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    min-height: 1687px;
-    overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 1687px;
+  overflow: hidden;
 
 
 }
 
 .nav-bar-background {
-    border: 0.5px solid #080808;
-    width: 99.9%;
-    height: 80px;
+  border: 0.5px solid #080808;
+  width: 99.9%;
+  height: 80px;
 }
 
-    .container {
-    max-width: 100%;
-    width: 100%;
-    margin: auto;
-  }
-  
-  .navbar {
-    width: 100%;
+.container {
+  max-width: 100%;
+  width: 100%;
+  margin: auto;
+}
 
-  }
-  
-  .nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 62px;
-  }
-  
-  .navbar .menu-items {
-    display: flex;
-  }
-  
-  .navbar .nav-container li {
-    list-style: none;
-  }
-  
-  .navbar .nav-container a {
-    text-decoration: none;
-    color: #080808;
-    font-weight: 500;
-    font-size: 1.2rem;
-    padding: 0.7rem;
-  }
-  
-  .navbar .nav-container a:hover{
-      font-weight: bolder;
-  }
-  
-  .nav-container {
-    display: block;
-    position: relative;
-    height: 60px;
-  }
-  
-  .nav-container .checkbox {
-    position: relative;
-    display: block;
-    height: 32px;
-    width: 32px;
-    top: 20px;
-    left: 20px;
-    z-index: 5;
-    opacity: 0;
-    cursor: pointer;
-  }
-  
-  .nav-container .hamburger-lines {
-    display: block;
-    height: 26px;
-    width: 32px;
-    position: absolute;
-    top: 17px;
-    left: 20px;
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .nav-container .hamburger-lines .line {
-    display: block;
-    height: 4px;
-    width: 100%;
-    border-radius: 10px;
-    background: #0e2431;
-  }
-  
-  .nav-container .hamburger-lines .line1 {
-    transform-origin: 0% 0%;
-    transition: transform 0.4s ease-in-out;
-  }
-  .nav-container .hamburger-lines .line2 {
-    transition: transform 0.2s ease-in-out;
-  }
-  
-  .nav-container .hamburger-lines .line3 {
-    transform-origin: 0% 100%;
-    transition: transform 0.4s ease-in-out;
-  }
-  
-  .navbar .menu-items {
-    height: 1684.5px;
-    width: 100%;
-    transform: translate(-150%);
-    display: flex;
-    flex-direction: column;
+.navbar {
+  width: 100%;
 
-    transition: transform 0.5s ease-in-out;
-    text-align: center;
-    background-color: #f8f8f8;
-  }
-  
-  .navbar .menu-items li {
-    margin-bottom: 1.2rem;
-    font-size: 1.5rem;
-  }
+}
 
-  .navbar .menu-items a {
-    font-family: 'Cabinet Grotesk', sans-serif;
-    font-weight: 500;
-    font-size: 30px;
-  }
-  
-  .logo {
-    position: absolute;
-    top: 5px;
-    right: 15px;
-    color: #080808;
-  }
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+}
 
-  .logo h1 {
-    font-family: 'Cabinet Grotesk', sans-serif;
-    font-weight: 500;
-    font-size: 50px;
-    margin: 0px;
-    cursor: pointer;
-  }
+.navbar .menu-items {
+  display: flex;
+}
 
-  .logo img {
-    content-visibility: hidden;
-    opacity: 0;
-    z-index: -300;
-    width: 0;
-    height:0;
-    cursor: pointer;
-    }
-  
-  .nav-container input[type="checkbox"]:checked ~ .menu-items {
-    transform: translateX(0);
-  }
-  
-  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
-    transform: rotate(45deg);
-  }
-  
-  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
-    transform: scaleY(0);
-  }
-  
-  
-  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
-    transform: rotate(-45deg);
-  }
-  
-  .nav-container input[type="checkbox"]:checked ~ .logo{
-    display: none;
-  }
+.navbar .nav-container li {
+  list-style: none;
+}
+
+.navbar .nav-container a {
+  text-decoration: none;
+  color: #080808;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 0.7rem;
+}
+
+.navbar .nav-container a:hover {
+  font-weight: bolder;
+}
+
+.nav-container {
+  display: block;
+  position: relative;
+  height: 60px;
+}
+
+.nav-container .checkbox {
+  position: relative;
+  display: block;
+  height: 32px;
+  width: 32px;
+  top: 20px;
+  left: 20px;
+  z-index: 5;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.nav-container .hamburger-lines {
+  display: block;
+  height: 26px;
+  width: 32px;
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-container .hamburger-lines .line {
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+  background: #0e2431;
+}
+
+.nav-container .hamburger-lines .line1 {
+  transform-origin: 0% 0%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.nav-container .hamburger-lines .line2 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.nav-container .hamburger-lines .line3 {
+  transform-origin: 0% 100%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.navbar .menu-items {
+  height: 1684.5px;
+  width: 100%;
+  transform: translate(-150%);
+  display: flex;
+  flex-direction: column;
+
+  transition: transform 0.5s ease-in-out;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+.navbar .menu-items li {
+  margin-bottom: 1.2rem;
+  font-size: 1.5rem;
+}
+
+.navbar .menu-items a {
+  font-family: 'Cabinet Grotesk', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.logo {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: #080808;
+}
+
+.logo h1 {
+  font-family: 'Cabinet Grotesk', sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  margin: 0px;
+  cursor: pointer;
+}
+
+.logo img {
+  content-visibility: hidden;
+  opacity: 0;
+  z-index: -300;
+  width: 0;
+  height: 0;
+  cursor: pointer;
+}
+
+.nav-container input[type="checkbox"]:checked~.menu-items {
+  transform: translateX(0);
+}
+
+.nav-container input[type="checkbox"]:checked~.hamburger-lines .line1 {
+  transform: rotate(45deg);
+}
+
+.nav-container input[type="checkbox"]:checked~.hamburger-lines .line2 {
+  transform: scaleY(0);
+}
+
+
+.nav-container input[type="checkbox"]:checked~.hamburger-lines .line3 {
+  transform: rotate(-45deg);
+}
+
+.nav-container input[type="checkbox"]:checked~.logo {
+  display: none;
+}
 
 .Grid-1,
 .Grid-2,
 .Grid-3,
-.Grid-4, 
+.Grid-4,
 .Grid-5 {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-top: -1px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: -1px;
 
 }
 
 .Grid-2 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: minmax(100px, auto);
-    position: relative;
-    height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  position: relative;
+  height: auto;
 
 }
 
 .one {
-    border: 0.5px solid #080808;
-    grid-column: 1 / 2;
-    grid-row: 1;
-    height: 1520px;
+  border: 0.5px solid #080808;
+  grid-column: 1 / 2;
+  grid-row: 1;
+  height: 1520px;
 }
 
 .two {
-    border: 0.5px solid #080808;
-    grid-column: 2 / 2;
-    grid-row: 1;
-    height: 200px;
-    width: 700px;
-    margin-right: -1px;
-    margin-left: -1px;
+  border: 0.5px solid #080808;
+  grid-column: 2 / 2;
+  grid-row: 1;
+  height: 200px;
+  width: 700px;
+  margin-right: -1px;
+  margin-left: -1px;
 }
 
 .two h1 {
-    font-size: 75px;
-    text-align: center;
-    font-family: 'Cabinet Grotesk', sans-serif;
-    font-weight: 700;
-    color: #080808;
+  font-size: 75px;
+  text-align: center;
+  font-family: 'Cabinet Grotesk', sans-serif;
+  font-weight: 700;
+  color: #080808;
 }
 
 .three {
-    border: 0.5px solid #080808;
-    grid-column: 3 / 3;
-    grid-row: 1;
-    height: 1520px;
+  border: 0.5px solid #080808;
+  grid-column: 3 / 3;
+  grid-row: 1;
+  height: 1520px;
 }
 
 .Grid-2 {
-    z-index: -1;
+  z-index: -1;
 }
 
 .Grid-3 {
-    z-index: 1;
+  z-index: 1;
 }
 
 .Grid-3 {
-    position: absolute;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: minmax(100px, auto);
-    left: 115px;
-    top: 225px;
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  left: 115px;
+  top: 225px;
 }
 
 .Image-Grid1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
 }
 
 .Grid-4 {
-    position: absolute;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: minmax(100px, auto);
-    left: 115px;
-    top: 655px;
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  left: 115px;
+  top: 655px;
 }
+
 .Grid-5 {
-    position: absolute;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: minmax(100px, auto);
-    left: 115px;
-    top: 1085px;
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  left: 115px;
+  top: 1085px;
 }
 
 
 .Grid-5 img {
-    width: 310px;
-    height: 413px;
+  width: 310px;
+  height: 413px;
 }
 
 
 footer {
-    border: 0.5px solid #080808;
-    width: 99.8%;
-    height: 50px;
-    margin-top: -1px;
+  border: 0.5px solid #080808;
+  width: 99.8%;
+  height: 50px;
+  margin-top: -1px;
 
 }
 
 .footer-content p {
-    margin: 0px;
-    padding-top: 15px;
-    font-family: 'Cabinet Grotesk', sans-serif;
-    font-weight: 500;
-    font-size: 1.25em;
-    text-align: center;
-    color: #080808;
+  margin: 0px;
+  padding-top: 15px;
+  font-family: 'Cabinet Grotesk', sans-serif;
+  font-weight: 500;
+  font-size: 1.25em;
+  text-align: center;
+  color: #080808;
 }
 
 .footer-content {
-    align-items: center;
+  align-items: center;
 }

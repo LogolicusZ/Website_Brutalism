@@ -1,6 +1,6 @@
 /* For screens smaller than 600px */
 @media only screen and (max-width: 1179px) {
-    
+
     .page-container {
         display: flex;
         flex-direction: column;
@@ -9,7 +9,7 @@
         margin: 0 auto;
         overflow: hidden;
         min-height: 1701.5px;
-        
+
 
     }
 
@@ -25,16 +25,16 @@
         width: 100%;
         z-index: 100;
 
-      }
+    }
 
     .nav-container {
         display: flex;
         justify-content: space-between;
         align-items: center;
         height: 150px;
-      }
+    }
 
-      .nav-container .checkbox {
+    .nav-container .checkbox {
         position: relative;
         display: block;
         height: 110px;
@@ -44,22 +44,22 @@
         z-index: 5;
         opacity: 0;
         cursor: pointer;
-      }
-      
-      .nav-container .hamburger-lines {
+    }
+
+    .nav-container .hamburger-lines {
         display: block;
         height: 78px;
         width: 128px;
         position: absolute;
-        top: 55px;
+        top: 60px;
         left: 20px;
         z-index: 2;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-      }
+    }
 
-      .navbar .menu-items {
+    .navbar .menu-items {
         height: 3000px;
         width: 100%;
         transform: translateY(-150%);
@@ -69,50 +69,51 @@
         text-align: center;
         background-color: #f8f8f8;
         z-index: 100;
-      }
+    }
 
-      .nav-container .hamburger-lines .line {
+    .nav-container .hamburger-lines .line {
         display: block;
         height: 10px;
         width: 100%;
         border-radius: 10px;
         background: #0e2431;
-      }
-      
-      .logo h1 {
+    }
+
+    .logo h1 {
         font-family: 'Cabinet Grotesk', sans-serif;
         font-weight: 500;
         font-size: 80px;
         margin: 0px;
-      }
+    }
 
-      .logo {
+    .logo {
         top: 20px;
-      }
+    }
 
-      .logo h1 {
+    .logo h1 {
         display: none;
-      }
+    }
 
-      .logo img {
+    .logo img {
         content-visibility: visible;
         position: absolute;
-        top: 0px;
+        top: 5px;
         right: 15px;
         width: 150px;
         height: 150px;
-        margin:0%;
+        margin: 0%;
         z-index: 1;
         opacity: 100;
-    
-      }
 
-      .Grid-Logo {
+    }
+
+    .Grid-Logo {
         display: none;
     }
-    
+
     .Grid-Logo img {
-        width: 90%;;
+        width: 90%;
+        ;
     }
 
     .Grid-Logo {
@@ -133,35 +134,37 @@
 
     }
 
-      .navbar .menu-items li {
+    .navbar .menu-items li {
         margin-bottom: 1.2rem;
         font-size: 1.5rem;
-      }   
-    
-      .navbar .menu-items a {
+    }
+
+    .navbar .menu-items a {
         font-family: 'Cabinet Grotesk', sans-serif;
         font-weight: 500;
         font-size: 80px;
-        margin-top:100px ;
-      }
+        margin-top: 100px;
+    }
 
     .Grid-Logo-text h1 {
         position: relative;
         align-items: center;
         font-size: 11rem;
-        margin-top:2%;
+        margin-top: 2%;
         margin-bottom: 4%;
+        font-weight: 700;
     }
 
     .Grid-Logo-text h2 {
         align-items: center;
         font-size: 4rem;
-        margin-top: 5%;
+        margin-top: 8%;
         margin-bottom: 2%;
+        font-weight:500;
     }
 
     .Grid-Logo-text button {
-        position:relative;
+        position: relative;
         align-items: center;
         height: 120px;
         font-size: 50px;
@@ -187,7 +190,7 @@
         width: 961px;
         height: 150px;
         top: 754px;
-        z-index:1;
+        z-index: 1;
     }
 
     .marquee {
@@ -202,12 +205,13 @@
     .gradient-grid {
         height: 150px;
     }
-    
+
     .gradient-grid img {
         height: 150px;
         position: absolute;
         z-index: -1;
     }
+
     .Grid2 {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -216,15 +220,15 @@
         height: 251px;
         width: 99.5%;
     }
-    
+
     .Grid-Logo-small {
         display: none;
     }
- 
+
     .About-title {
-    width: 709px;
-    height: 250px;
-    margin: 0%;
+        width: 709px;
+        height: 250px;
+        margin: 0%;
     }
 
     .About-title h1 {
@@ -254,7 +258,7 @@
 
     .Grid-Photo img {
         width: 910px;
-        height: 910px; 
+        height: 910px;
 
     }
 
@@ -326,8 +330,9 @@
         margin-top: -1px;
         margin-bottom: 10px;
     }
+
     .footer-content p {
-    font-size: 2em;
+        font-size: 2em;
     }
-    
+
 }
